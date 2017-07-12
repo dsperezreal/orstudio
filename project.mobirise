@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "INICIO.html",
+    "currentPage": "Index.html",
     "versionFirst": "3.8.1",
     "uniqCompNum": 32,
     "versionPublish": "3.12.1",
@@ -31,366 +31,6 @@
     "cookiesAlert": "Usamos cookies propiaspara mas informacion visita <a href='privacy.html'>Politicas de cookies</a>."
   },
   "pages": {
-    "INICIO.html": {
-      "settings": {
-        "main": true,
-        "title": "INICIO",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": "",
-        "order": 1
-      },
-      "components": [
-        {
-          "_name": "footer1",
-          "_anchor": "footer1-2",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 Studio Design."
-        },
-        {
-          "_inherit": "header1",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header4",
-          "_anchor": "header4-6",
-          "_params": {
-            "parallax": true,
-            "bgImageRadio": false,
-            "showArrow": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#a07e49",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/embed/ei9jPA0cm1w?rel=0&amp;showinfo=0&autoplay=0&loop=0"
-            },
-            "bgVideoRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
-            "contentAlign": "right",
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true
-          },
-          "title": "STUDIO &nbsp;DESIGN",
-          "text": "Incrementa tus ventas, innova a tus clientes, tu limite?&nbsp;<br>Solo tu imaginación",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"PRODUCTOS.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-pricetags mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>Productos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"CONTACTANOS.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-chat mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>Contactanos</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider",
-          "_styles": {
-            "H2": {
-              "font-size": "72px"
-            }
-          },
-          "_params": {
-            "autoplay": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "timeout": 5,
-            "slides": [
-              {
-                "active": false,
-                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "center",
-                "showTitle": true,
-                "title": "DISEÑO WEB",
-                "showText": true,
-                "text": "Pon en manos de profesionales el diseño web de tu negocio",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PLANES</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Clientes.html\" data-toolbar=\"-mbrBtnMove\">CLIENTES</a>"
-              },
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/mejorar-optin-rate-2000x1000-88.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "EMAIL MARKETING",
-                "showText": true,
-                "text": "Tienes muchos productos y tus clientes no los conocen? <br>Crea con nosotros una planificación estrategica y muestralos al mundo.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"CONTACTANOS.html\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PLANES</a>"
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/socialmedia-2000x1068-99.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "overlayOpacity": "0.8",
-                "contentAlign": "left",
-                "showTitle": true,
-                "title": "PAQUETES PROMOCIONALES",
-                "showText": true,
-                "text": "Te damos a conocer los mejores paquetes de nuestros servicios.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Precios</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"PRODUCTOS.html\" data-toolbar=\"-mbrBtnMove\">Productos</a>"
-              }
-            ],
-            "fullScreen": true,
-            "bgColor": "#fff",
-            "showBullets": true
-          },
-          "_anchor": "slider-2",
-          "articleLayout": false
-        },
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#4c9fcf"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#4c9fcf"
-            },
-            ".link, .dropdown-item": {
-              "color": "#4c9fcf"
-            },
-            ".link": {
-              "font-size": "1rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.083rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#e6e6e6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f7f7f7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#ffffff"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#4c9fcf",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#1748da!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-1",
-          "_params": {
-            "bgColor": "#ffffff",
-            "fontSize": "1",
-            "fontName": {},
-            "fontColor": "#4c9fcf",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": true
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/cpr-384x128-1.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "#bottom",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"INICIO.html\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Quienes_somos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">QUIENES SOMOS?</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Quienes_somos.html\"><span class=\"etl-icon icon-presentation mbr-iconfont mbr-iconfont-btn\"></span>Historia</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Clientes.html\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>Clientes</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRODUCTOS.html\">PRODUCTOS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"CONTACTANOS.html\">CONTACTANOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
-        },
-        {
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#232323"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons2",
-          "_anchor": "social-buttons2-0",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": true,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "SIGUENOS",
-          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
-        },
-        {
-          "_inherit": "contacts3",
-          "_styles": {
-            "p, .list-group-text, .form-control-label": {
-              "color": "#000"
-            },
-            "strong, h4": {
-              "color": "#7e9b9f"
-            },
-            "form .form-control": {
-              "border-color": "rgba(0, 0, 0, 0.2)",
-              "color": "#565656"
-            },
-            ".mbr-footer-content li": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
-            },
-            ".mbr-company .list-group-text::after": {
-              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts5",
-          "_anchor": "contacts5-2",
-          "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/cpr-265x88-99.png",
-              "class": "card-img-top",
-              "width": 265,
-              "active": true,
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
-              "link": "",
-              "size": 0
-            }
-          },
-          "text1": "",
-          "media1": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "phone",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text2": "+(593)983872202&nbsp;<br>+(593)996466117<br>+(593)998842724<br>",
-          "media2": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "map-pin",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text3": "De los Fresnos y Ventura Aguilera &nbsp;",
-          "media3": {
-            "iconFont": {
-              "active": true,
-              "class": "mbr-iconfont-company-contacts5",
-              "name": "envelope",
-              "size": 0,
-              "family": "et-line"
-            }
-          },
-          "text4": "<a href=\"mailto:support@mobirise.com\">ventas@orstudiodesing.com</a>",
-          "title1": "Navegación",
-          "text5": "<li><a href=\"#\">INICIO</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"#\">QUIENES SOMOS?</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"#\">PRODUCTOS</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"#\">CONTACTANOS</a></li>",
-          "text6": "<span style=\"color: rgb(126, 155, 159); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">Asistencia online&nbsp;</span><span style=\"color: rgb(126, 155, 159); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"><br></span><br><a href=\"PRODUCTOS.html\">- Web Desing</a><br><a href=\"PRODUCTOS.html\">- E-mail Marketing</a><br><a href=\"PRODUCTOS.html\">- Correo corporativo</a><br><a href=\"PRODUCTOS.html\">- Diseño de Logotipos</a><br><a href=\"PRODUCTOS.html\">- Publicidad fisica</a><br><a href=\"PRODUCTOS.html\">- Tienda online</a><br><a href=\"http://help.studiodesing.com\"><br></a>&nbsp;<br><br>",
-          "form": {
-            "title": "MESSAGE",
-            "action": "ventas@orstudiodesign.com",
-            "alerts": {
-              "success": "Gracias por tu mensaje, pronto nos estaremos comunicando contigo."
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Nombre*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": false,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Mensaje"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contactanos</a>"
-        }
-      ]
-    },
     "PRODUCTOS.html": {
       "settings": {
         "title": "PRODUCTOS",
@@ -2549,6 +2189,366 @@
           ],
           "_name": "contacts5",
           "_anchor": "contacts5-p",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/cpr-265x88-99.png",
+              "class": "card-img-top",
+              "width": 265,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-logo-contacts3",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "",
+          "media1": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "phone",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text2": "+(593)983872202&nbsp;<br>+(593)996466117<br>+(593)998842724<br>",
+          "media2": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "map-pin",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text3": "De los Fresnos y Ventura Aguilera &nbsp;",
+          "media3": {
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont-company-contacts5",
+              "name": "envelope",
+              "size": 0,
+              "family": "et-line"
+            }
+          },
+          "text4": "<a href=\"mailto:support@mobirise.com\">ventas@orstudiodesing.com</a>",
+          "title1": "Navegación",
+          "text5": "<li><a href=\"#\">INICIO</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"#\">QUIENES SOMOS?</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"#\">PRODUCTOS</a><a class=\"text-primary\" href=\"#\"></a></li><li><a href=\"#\">CONTACTANOS</a></li>",
+          "text6": "<span style=\"color: rgb(126, 155, 159); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\">Asistencia online&nbsp;</span><span style=\"color: rgb(126, 155, 159); font-family: Montserrat, sans-serif; font-size: 1rem; font-weight: 700; letter-spacing: -1px; line-height: 1.3;\"><br></span><br><a href=\"PRODUCTOS.html\">- Web Desing</a><br><a href=\"PRODUCTOS.html\">- E-mail Marketing</a><br><a href=\"PRODUCTOS.html\">- Correo corporativo</a><br><a href=\"PRODUCTOS.html\">- Diseño de Logotipos</a><br><a href=\"PRODUCTOS.html\">- Publicidad fisica</a><br><a href=\"PRODUCTOS.html\">- Tienda online</a><br><a href=\"http://help.studiodesing.com\"><br></a>&nbsp;<br><br>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "ventas@orstudiodesign.com",
+            "alerts": {
+              "success": "Gracias por tu mensaje, pronto nos estaremos comunicando contigo."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Nombre*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": false,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Mensaje"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Contactanos</a>"
+        }
+      ]
+    },
+    "Index.html": {
+      "settings": {
+        "main": true,
+        "title": "INICIO",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#323232",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Studio Design."
+        },
+        {
+          "_inherit": "header1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-6",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/ei9jPA0cm1w?rel=0&amp;showinfo=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "right",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "STUDIO &nbsp;DESIGN",
+          "text": "Incrementa tus ventas, innova a tus clientes, tu limite?&nbsp;<br>Solo tu imaginación",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"PRODUCTOS.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-pricetags mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>Productos</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-warning\" href=\"CONTACTANOS.html\" data-toolbar=\"-mbrBtnMove\"><span class=\"etl-icon icon-chat mbr-iconfont mbr-iconfont-btn\" style=\"color: rgb(255, 255, 255);\"></span>Contactanos</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "H2": {
+              "font-size": "72px"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "timeout": 5,
+            "slides": [
+              {
+                "active": false,
+                "image": "@THEME_PATH@/components/_images/slider/man-back.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "center",
+                "showTitle": true,
+                "title": "DISEÑO WEB",
+                "showText": true,
+                "text": "Pon en manos de profesionales el diseño web de tu negocio",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PLANES</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"Clientes.html\" data-toolbar=\"-mbrBtnMove\">CLIENTES</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/mejorar-optin-rate-2000x1000-88.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "EMAIL MARKETING",
+                "showText": true,
+                "text": "Tienes muchos productos y tus clientes no los conocen? <br>Crea con nosotros una planificación estrategica y muestralos al mundo.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"CONTACTANOS.html\" data-toolbar=\"-mbrBtnMove\">CONTACTANOS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">PLANES</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/socialmedia-2000x1068-99.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "overlayOpacity": "0.8",
+                "contentAlign": "left",
+                "showTitle": true,
+                "title": "PAQUETES PROMOCIONALES",
+                "showText": true,
+                "text": "Te damos a conocer los mejores paquetes de nuestros servicios.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Precios</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"PRODUCTOS.html\" data-toolbar=\"-mbrBtnMove\">Productos</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#fff",
+            "showBullets": true
+          },
+          "_anchor": "slider-2",
+          "articleLayout": false
+        },
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#4c9fcf"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#4c9fcf"
+            },
+            ".link, .dropdown-item": {
+              "color": "#4c9fcf"
+            },
+            ".link": {
+              "font-size": "1rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.083rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#e6e6e6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#f7f7f7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#4c9fcf",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#1748da!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-1",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#4c9fcf",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cpr-384x128-1.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#bottom",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"INICIO.html\">INICIO</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"Quienes_somos.html\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">QUIENES SOMOS?</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Quienes_somos.html\"><span class=\"etl-icon icon-presentation mbr-iconfont mbr-iconfont-btn\"></span>Historia</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Clientes.html\"><span class=\"mbri-users mbr-iconfont mbr-iconfont-btn\"></span>Clientes</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"PRODUCTOS.html\">PRODUCTOS</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"CONTACTANOS.html\">CONTACTANOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"https://mobirise.com/\">BUY</a></li>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-0",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "SIGUENOS",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"YouTube\" target=\"_blank\" href=\"https://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\"><i class=\"socicon socicon-instagram\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Pinterest\" target=\"_blank\" href=\"https://www.pinterest.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-pinterest\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-linkedin\"></i></a>   "
+        },
+        {
+          "_inherit": "contacts3",
+          "_styles": {
+            "p, .list-group-text, .form-control-label": {
+              "color": "#000"
+            },
+            "strong, h4": {
+              "color": "#7e9b9f"
+            },
+            "form .form-control": {
+              "border-color": "rgba(0, 0, 0, 0.2)",
+              "color": "#565656"
+            },
+            ".mbr-footer-content li": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.1)"
+            },
+            ".mbr-company .list-group-text::after": {
+              "border-bottom": "1px dotted rgba(0, 0, 0, 0.2)"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts5",
+          "_anchor": "contacts5-2",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
